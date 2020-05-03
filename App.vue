@@ -3,37 +3,14 @@
   <p>Edit ./App.vue to t replacement aasdsada</p>
   <p>
     <span>Count is: {{ count }}</span>
-    <button @click="increment">increment</button>
-    <button @click="decrement">decrement</button>
+    <button @click="count++">increment</button>
+    <button @click="count--">decrement</button>
   </p>
 </template>
 
 <script>
 export default {
   data: () => ({ count: 0 }),
-  watch:{
-    count(newVal, oldVal){
-      console.log(newVal);
-      console.log(oldVal);
-      
-    }
-  },
-  created(){
-    console.log('created');
-    
-  },
-  updated(){
-    console.log('updated');
-    
-  },
-  methods: {
-    increment(){
-      this.count++
-    },
-    decrement(){
-      this.count--
-    }
-  }
 }
 </script>
 
