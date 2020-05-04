@@ -5,6 +5,15 @@
     <span>Count is: {{ count }}</span>
     <button @click="count++">increment</button>
     <button @click="count--">decrement</button>
+    
+    <button @click="count--">decrement</button>
+    <button @click="count--">decrement</button>
+    <button @click="count--">decrement</button>
+    <button @click="count--">decrement</button>
+    <button @click="count--">decrement</button>
+    <button @click="count--">decrement</button>
+    <button @click="count--">decrement</button>
+    <button @click="count--">decrement</button>
   </p>
 </template>
 
@@ -14,7 +23,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 h1 {
   color: #4e614e;
 }
